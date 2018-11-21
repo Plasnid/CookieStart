@@ -1,0 +1,3 @@
+@mixin tshad($shadH, $shadV, $shadBlur, $shadCol){
+    text-shadow: $shadH $shadV $shadBlur $shadCol;
+}

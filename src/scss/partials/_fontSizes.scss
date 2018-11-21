@@ -1,0 +1,20 @@
+$mainHeaderSize: 3em;
+$subHeaderSize: 1.6em;
+$sectHeaderSize: 2em;
+$stdTextSize: 1.4em;
+
+$notesTextSize: 1.2em;
+$notesLineHeight: 1.4em;
+
+$titleFont: 'Amatic SC', cursive;
+$copyFont: 'Josefin Sans', sans-serif;
+
+body{
+    font-family: $copyFont;
+}
+h1,h2,h3{
+    font-family: $titleFont;
+}
+
+$stdTextLineHeight: 1.7em;
+$instructLineHeight: 1.9em;

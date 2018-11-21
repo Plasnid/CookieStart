@@ -1,0 +1,58 @@
+main{
+    background: $lightBgCol;
+    display: flex;
+    color: $stdTextCol;
+    flex-grow: 1;
+    font-size: $stdTextSize;
+    line-height: $stdTextLineHeight;
+    section{
+        padding: 5px 5px;
+        flex: 1;
+        &#ingredients{
+            border-right: 4px dashed $highlightCol;
+            ul{
+                li{
+                    background-color: darken( $lightBgCol, 20% );
+                    padding: 3px;
+                    &:nth-child(even){
+                        background-color: darken( $lightBgCol, 10% );
+                    }
+                }
+            }
+        }
+        &#steps{
+            flex:2;
+            padding-left:30px;
+            line-height: $instructLineHeight;
+            ol{
+                list-style-type:decimal;
+                li{
+                    margin-bottom: 15px;
+                }
+            }
+            div{
+                article{
+                    background-color: lighten( $highlightCol, 30%);
+                    padding: 20px;
+                    font-size: $notesTextSize;
+                    line-height: $notesLineHeight;
+                    border: 2px dashed $stdTextCol;
+                    p{
+                        &:first-child{
+                        margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        h3{
+            $color: $titleCol;
+            text-align: center;
+            text-decoration: underline;
+            font-size: $sectHeaderSize;
+            @include tshad(2px, 2px, 4px, $shadowCol);
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+}

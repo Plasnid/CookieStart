@@ -1,0 +1,26 @@
+{
+  "name": "cookies",
+  "version": "1.0.0",
+  "description": "a data driven cookie recipe",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "sass": "node-sass -wr --output-style compressed -o dist/css src/scss",
+    "start": "concurrently \"npm run sass\" \"npm run lite\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plasnid/cookies.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plasnid/cookies/issues"
+  },
+  "homepage": "https://github.com/Plasnid/cookies#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.10.0"
+  }
+}

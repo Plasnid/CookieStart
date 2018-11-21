@@ -1,0 +1,33 @@
+header{
+    background: $darkBgCol;
+    color: $stdTextCol;
+    font-size: $stdTextSize;
+    h1{
+        color: darken($titleCol, 20%);
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: $mainHeaderSize;
+        @include tshad(3px, 3px, 5px, $shadowCol);
+    }
+    h2{
+        font-size: darken($titleCol, 50%);
+        font-size: $subHeaderSize;
+        margin-bottom: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+    div{
+        display: flex;
+        background-color: $highlightCol;
+        border-bottom: 2px solid $shadowCol;
+        p{
+            flex: 1;
+            text-align: center;
+            padding: 10px 0;
+            span{
+                font-weight: bolder;
+            }
+        }
+    }
+}
