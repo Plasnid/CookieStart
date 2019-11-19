@@ -1,7 +1,7 @@
 # cookies
 a data driven cookie recipe
 
-# final assignment:
+# Assignment:
  Perform each section in order.
 
 ## Part 1:
