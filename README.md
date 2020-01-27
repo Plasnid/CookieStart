@@ -52,20 +52,3 @@ Import all of the partials and mixins:
 4. partials/_body.scss
 5. partials/_header.scss
 6. partials/_main.scss
-
-## Bonus:  
-For an additional 20%, extend the data object to contain a second cookie recipe.  Add buttons and events to allow the user to switch between recipes.
-
-## Evaluation Breakdown:
-| Percentage | Task |
-|-----------:|:-----|
-| 10% | Apropriate Tabbing |
-| 10% | Linkage to CSS Files |
-| 5% | Linkage To Google Fonts |
-| 5% | Linkage to Javascript |
-| 15% | Correctly formatted JSON File |
-|  5% | Correct Instancing of a Javascript ES5 Function Class |
-| 10% | Console Logs as required by instructions |
-| 10% | Data loading from JSON file |
-| 25% | Population of page content from Data |
-| 5% | Use of Template Literals |
